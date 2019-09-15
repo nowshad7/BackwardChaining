@@ -1,0 +1,16 @@
+1
+B(John,Bob)
+13
+A(x,y) => B(x,y)
+G(x,y) => B(x,y)
+C(c,d) => A(c,d)
+B(x,y) => G(x,y)
+F(y) => G(x,y)
+G(x,y) ^ F(y) => H(x,y)
+I(z) => F(z)
+F(z) => I(z)
+C(Jie,Joe)
+C(Melissa,Mary)
+G(John,Bob)
+I(Amy)
+F(Bob)
